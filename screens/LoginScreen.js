@@ -1,9 +1,14 @@
 import React from 'react'
-import { Button, Text, View } from 'react-native'
+import {Button, Text, View } from 'react-native'
 
 export default function LoginScreen({navigation}) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      
+      <View style={{flex:1, alignItems: 'center' , justifyContent: 'center'}}>
+        <Text >Login</Text>
+      </View>
+
       <Text>Login Screen</Text>
       <Button
         title="Go to Details"
